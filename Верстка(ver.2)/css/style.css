@@ -1,0 +1,367 @@
+@font-face {
+    font-family: Gotham Pro;
+    src: url(../fonts/gotham/gothampro.ttf)
+}
+
+@font-face {
+    font-family: Gotham Pro Light;
+    src: url(../fonts/gotham/gothamprolight.ttf)
+}
+
+@font-face {
+    font-family: Gotham Pro Bold;
+    src: url(../fonts/gotham/gothamprobold.ttf)
+}
+
+body {
+    margin: 0;
+    font-family: "Gotham Pro";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+  /* width: 267px;
+  height: 48px; */
+    min-width: 267px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #d2ea2a;
+    color: #24272d;
+    font-weight: bold;
+}
+
+header {
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu .menu-item:not(:first-child)  {
+    margin-left: 20px;
+}
+.header-menu .menu-item:last-child {
+    margin-left: 100px;
+}
+
+
+.menu-link {
+    margin-left: 12px;
+}
+
+.main {
+    height: 916px;
+}
+
+.main-backgraund {
+    height: 100%;
+    padding-top: 100px;
+    background: #24272d url(..//img/main-background.png) no-repeat 50%;
+    background-size: cover;
+}
+
+.main-block {
+    padding-top: 114px;
+    padding-bottom: 114px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-main-title {
+    color: #d2ea2a;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.header-main-text {
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-main-txt {
+    color: #aeaeae;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-btn {
+    font-size: 18px;
+}
+
+.title {
+    display: block;
+    margin-top: 118px;
+    margin-left: 220px;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: -0.36px;
+}
+
+.title-text {
+    display: block;
+    margin-top: -25px;
+    margin-left: 218px;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: -0.48px;
+    letter-spacing: -0.48px;
+}
+
+.title-txt {
+    margin-left: 218px;
+    color: #6a6a6a;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    color: #d2ea2a;
+}
+
+.startup-text {
+    font-family: "Gotham Pro";
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #d2ea2a;
+}
+
+.corp-txt {
+    margin-left: 10px;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: bold;
+    color: #d2ea2a;
+}
+
+
+.wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-record{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.record{
+    width: 486px;
+    height: 565px;
+    border-radius: 25px;
+    border: 1px solid #24272d;
+}
+
+.record-title {
+    color: #24272d;
+    font-family: "Gotham Pro";
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: -0.36px;
+    text-align: center;
+}
+
+.record-text {
+    color: #6a6a6a;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.record-btn {
+    width: 267px;
+    min-width: 100px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #d2ea2a;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 18px;
+    outline: none;
+}
+
+.title-txt-txt {
+    max-width: 1147px;
+    margin-left: 218px;
+    color: #6a6a6a;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+}
+
+.title-txt-txt:after {
+    content: "JS Corparation!";
+    color: #d2ea2a;
+}
+
+.univer {
+    color: #d2ea2a;
+    text-transform: uppercase;
+}
+
+.city {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1539px;
+    min-height: 451px;
+    border-radius: 25px;
+    border: 1px solid #24272d;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 24px;
+}
+
+.drop-down-city {
+    display: block;
+    margin-top: 36px;
+    margin-left: 63px;
+    border: 1px solid #d2ea2a;
+    border-radius: 15px;
+    outline: none;
+    max-width: 267px;
+    height: 48px;
+    font-size: 20px;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 18px;
+}
+
+.drop-down-title {
+    margin: 56px 0 0 69px;
+    width: 210px;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 24px;
+}
+
+.check-free{
+    margin-top: 40px;
+}
+input {
+    margin-left: 70px;
+    width: 30px;
+    height: 30px;
+}
+
+#some_checkbox{
+    margin-top: 0px;
+}
+
+.free:after {
+    content: '(Бесплатно) ';
+    font-family: "Gotham Pro";
+    font-weight: 700;
+}
+
+.drop-down-text {
+    max-width: 1318px;
+    margin-left: 70px;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 18px;
+}
+
+.drop-down-text:after {
+    content: "";
+    margin-top: 60px;
+    display: block;
+    max-width: 1406px;
+    border: 1px solid #24272d;
+}
+
+.free-title {
+    margin-left: 57px;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: -0.36px;
+}
+
+.free-title:after {
+    content: "Бесплатно";
+    color: #d2ea2a;
+    font-family: "Gotham Pro";
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.48px;
+    font-weight: bold;
+}
+
+#phone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 267px;
+    
+    height: 48px;
+    border-radius: 15px;
+    border: 1px solid #a7a7a7;
+    outline: none;
+}
+
+.form-control {
+    color: #6a6a6a;
+    font-family: "Gotham Pro Bold";
+    font-size: 18px;
+}
+
+.reg-btn {
+    margin-left: 70px;
+    width: 267px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #d2ea2a;
+    color: #24272d;
+    font-family: "Gotham Pro Bold";
+    font-size: 18px;
+    outline: none;
+}
