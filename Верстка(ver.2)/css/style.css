@@ -78,14 +78,16 @@ header {
 }
 
 .main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
     height: 916px;
+    background: #24272d url(..//img/main-pic.png) no-repeat 50%;
 }
 
 .main-backgraund {
     height: 100%;
-    padding-top: 100px;
-    background: #24272d url(..//img/main-background.png) no-repeat 50%;
-    background-size: cover;
+    background: url(..//img/cloud.png) no-repeat 50% 800px;
 }
 
 .main-block {
@@ -94,6 +96,12 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+img[alt="boys"]{
+    display: block;
+    margin-top: -150px;
+    margin-left: 600px;
 }
 
 .header-main-title {
@@ -126,32 +134,27 @@ header {
 }
 
 .title {
-    display: block;
-    margin-top: 118px;
-    margin-left: 220px;
+    margin: 0;
+    width: 900px;
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
     line-height: 60px;
     text-transform: uppercase;
-    letter-spacing: -0.36px;
 }
 
 .title-text {
-    display: block;
-    margin-top: -25px;
-    margin-left: 218px;
+    margin: 0;
+    width: 500px;
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 48px;
-    line-height: 60px;
+    line-height: 34px;
     text-transform: uppercase;
-    letter-spacing: -0.48px;
-    letter-spacing: -0.48px;
 }
 
 .title-txt {
-    margin-left: 218px;
+    margin: 0;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
@@ -159,10 +162,11 @@ header {
 }
 
 .startup-text {
+    margin: 0;
     font-family: "Gotham Pro";
     font-size: 48px;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 34px;
     text-transform: uppercase;
     color: #d2ea2a;
 }
@@ -184,6 +188,7 @@ header {
 }
 
 .main-record{
+    margin: -21px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -191,6 +196,8 @@ header {
 }
 
 .record{
+    margin: 21px;
+    padding: 26px;
     width: 486px;
     height: 565px;
     border-radius: 25px;
@@ -229,8 +236,8 @@ header {
 }
 
 .title-txt-txt {
+    margin: 0;
     max-width: 1147px;
-    margin-left: 218px;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
