@@ -276,7 +276,7 @@ header {
 }
 
 .drop-down-title {
-    margin: 46px 0 0 69px;
+    margin: 46px 0 0 59px;
     width: 210px;
     color: #24272d;
     font-family: "Gotham Pro";
@@ -308,6 +308,7 @@ header {
 
 #some_checkbox{
     margin-top: 0px;
+    margin-left: 40px;
 }
 
 .free{
@@ -341,7 +342,8 @@ header {
 }
 
 .free-title {
-    display: flex;
+    margin-top: -10px;
+    padding-left: 65px;
     width: 830px;
     height: 34px;
     color: #24272d;
@@ -352,49 +354,38 @@ header {
 }
 
 .free-title-txt{
-    padding-left: 10px;
+    padding-left: 65px;
     color: #d2ea2a;
     font-family: "Gotham Pro Bold";
     font-size: 48px;
-    line-height: 60px;
+    line-height: 0px;
     letter-spacing: -0.48px;
 }
 
-.title-txt-txt {
-    margin-bottom: 0px;
-    margin-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 52px;
-    max-width: 1147px;
-    color: #6a6a6a;
-    font-family: "Gotham Pro";
-    font-size: 24px;
-}
-
-input {
-    margin-left: 70px;
-    width: 30px;
-    height: 30px;
+.phone-btn{
+    padding-left: 310px;
+    padding-bottom: 20px;
 }
 
 #phone {
+    padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
     width: 267px;
     height: 48px;
     border-radius: 15px;
     border: 1px solid #a7a7a7;
-    outline: none;
 }
 
 .form-control {
     color: #6a6a6a;
     font-family: "Gotham Pro Bold";
     font-size: 18px;
+    margin-left: 70px;
 }
 
 .reg-btn {
+    margin-top: 10px;
     margin-left: 70px;
     width: 267px;
     height: 48px;
@@ -411,34 +402,48 @@ input {
     background-color: transparent; 
 }
 
+.text{
+    height: 103px;
+    color: #6a6a6a;
+    font-family: "Gotham Pro";
+    font-size: 24px; 
+}
 
 .project {
     margin: 0 auto;
     flex-wrap: wrap;
     max-width: 1539px;
-    min-height: 451px;
+    min-height: 591px;
     border-radius: 25px;
     border: 1px solid #24272d;
 }
 
 .project-main {
+    width: 100%;
+    padding-top: 40px;
     display: flex;
-    box-sizing: border-box;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+}
+
+.pro {
+    width: 339px;
+    height: 17px;
+    color: #24272d;
     font-family: "Gotham Pro";
     font-size: 18px;
 }
 
-.pro {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    max-width: 339px;
-    color: #24272d;
-    font-family: "Gotham Pro";
-    font-size: 18px;
-    font-weight: 200;
+input {
+    width: 30px;
+    height: 30px;
+}
+
+.who-text{
+    padding-top: 7px;
+    padding-left: 15px;
 }
 
 .form{
@@ -449,14 +454,13 @@ input {
 }
 
 .form-form {
-    margin-left: 16px;
-    margin-top: 110px;
+    padding-left: 15px;
+    margin-top: 70px;
     width: 267px;
     max-width: 267px;
     height: 48px;
     border-radius: 15px;
     border: 1px solid #a7a7a7;
-    outline: none;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 18px;
@@ -464,7 +468,7 @@ input {
 }
 
 .form-btn {
-    margin-top: 110px;
+    margin-top: 70px;
     width: 267px;
     max-width: 267px;
     height: 48px;
@@ -481,7 +485,7 @@ input {
     background-color: transparent;
 }
 
-.form-form-form {
+.form-check {
     margin-left: 100px;
     margin-top: 30px;
 }
@@ -496,21 +500,23 @@ input {
     line-height: 16.71px;
 }
 
+.form-conf{
+    color: #d2ea2a;
+}
+
+img[alt="cloud-down"]{
+}
+
 .pracric {
     margin: 0 auto;
-    flex-wrap: wrap;
     min-height: 916px;
     background-color: #23272c;
     margin: 0 auto;
     width: 100%;
 }
 
-img[alt="cloud-down"]{
-    margin: 0 auto;
-}
-
 .title-white {
-    margin-left: 100px;
+    margin-top: 106px;
     max-width: 1539px;
     color: #ffffff;
     font-family: "Gotham Pro Bold";
@@ -520,8 +526,7 @@ img[alt="cloud-down"]{
 }
 
 .title-text-white {
-    margin-left: 100px;
-    max-width: 1539px;
+    max-width: 1000px;
     color: #ffffff;
     font-family: "Gotham Pro";
     font-size: 48px;
@@ -531,8 +536,17 @@ img[alt="cloud-down"]{
     text-transform: uppercase;
 }
 
+.title-txt-txt {
+    max-width: 1147px;
+    width: 1028px;
+    color: #6a6a6a;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
 .all-project {
-    margin: -210px 0 0 1219px;
+    margin: -200px 0 0 1219px;
     color: #9b9b9b;
     font-family: "Gotham Pro";
     font-size: 24px;
@@ -540,16 +554,14 @@ img[alt="cloud-down"]{
 }
 
 .all-project-btn {
-    margin-left: 1209px;
+    margin-left: 1219px;
     color: #ffffff;
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro Bold";
     font-size: 36px;
-    font-weight: bold;
-    line-height: 60px;
+    line-height: 30px;
     letter-spacing: -0.36px;
-    background-color: transparent;
     border: none;
-    outline: none;
+    text-decoration: none;
 }
 
 .all-project-btn:hover {
@@ -557,26 +569,28 @@ img[alt="cloud-down"]{
 }
 
 .all-project-btn:active {
-    color: black;
+    color: transparent;
 }
 
 .real-project{
-    margin: 200px 0 0 300px;
-    padding: 30px;
+    margin: 200px 0 0 200px;
     display: flex;
-    justify-content: space-around;
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1400px;
 }
 
 .link-partners {
+    margin-right: 180px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
     width: 150px;
-    display: inline-block;
+    align-items: center;
     text-decoration: none;
     color: #ffffff;
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro Bold";
     font-size: 24px;
     font-weight: 500;
 }
@@ -610,7 +624,7 @@ img[alt="cloud-down"]{
 }
 
 img[alt="cloud-partners"]{
-    margin-top: -210px; 
+    margin-top: -200px; 
 }
 
 .event {
@@ -620,30 +634,24 @@ img[alt="cloud-partners"]{
 }
 
 .event-title-main{
-    margin-left: 100px;
     color: #24272d;
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro Bold";
     font-size: 36px;
-    font-weight: bold;
     line-height: 0px;
 }
 
 .event-title-text{
-    margin-left: 100px;
     color: #24272d;
-    font-family: "Gotham Pro";
+    font-family: "Gotham Pro Bold";
     font-size: 48px;
-    font-weight: bold;
     line-height: 0px;
     letter-spacing: -0.48px;
 }
 
 .event-title-txt{
-    margin-left: 100px;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
-    font-weight: bold;
     line-height: 0px;
 }
 
@@ -673,6 +681,7 @@ img[alt="cloud-partners"]{
 }
 
 .event-title {
+    margin-left: -60px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -682,73 +691,87 @@ img[alt="cloud-partners"]{
     font-weight: 500;
 }
 
-.all-practic{
-    margin-right: 40px;
-    color: #6a6a6a;
-    font-family: "Gotham Pro";
-    font-size: 24px;
-    font-weight: bold;
-    text-align: right;
+img[alt="boy-footer"] {
+    margin-top: 133px;
+    position: absolute;
 }
 
-.all-practic-btn{
-    width: 100%;
-    display: flex;
-    color: #d2ea2a;
+.title-question{
+    padding: 190px 0 0 400px;
+    color: #24272d;
     font-family: "Gotham Pro";
     font-size: 36px;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 0px;
     letter-spacing: -0.36px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    justify-content: flex-end;
 }
 
-.all-practic-btn:hover {
-    color: #d2ea2a;
+.title-text-question{
+    padding: 0px 0 0 400px;
+    color: #24272d;
+    font-family: "Gotham Pro";
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0px;
+    letter-spacing: -0.48px;
 }
 
-.all-practic-btn:active {
-    color: black;
-}
-
-img[alt="boy-footer"] {
-    margin-top: 133px;
-    margin-left: 126px;
-}
-
-.call-text {
-    margin-top: -611px;
-    margin-left: 389px;
-}
-
-.title-text-txt {
-    margin-left: 220px;
-    margin-top: -10px;
-    width: 634px;
+.title-txt-question{
+    padding: 0px 0 0 400px;
+    width: 1034px;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
-    font-weight: 200;
+    line-height: 30px;
+}
+
+.all-practic{
+    padding-left: 1250px;
+    margin-top: -165px;
+    color: #6a6a6a;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+}
+
+.all-practic-btn{
+    margin-left: -23px;
+    width: 100%;
+    display: flex;
+    color: #d2ea2a;
+    font-family: "Gotham Pro Bold";
+    font-size: 36px;
+    line-height: 0px;
+    letter-spacing: -0.36px;
+    border: none;
+    background-color: transparent;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.all-practic-btn:hover {
+    color: #24272d;
+}
+
+.all-practic-btn:active {
+    color: #ffffff;
 }
 
 .question-form {
+    display: flex;
     margin-top: 121px;
-    margin-left: 740px;
+    margin-left: 640px;
 }
 
 .question-name {
-    margin: 0px;
+    margin-right: 10px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 461px;
+    width: 361px;
     height: 46px;
     border-radius: 15px;
     border: 1px solid #a7a7a7;
-    outline: none;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 18px;
@@ -756,12 +779,12 @@ img[alt="boy-footer"] {
 }
 
 .question-mail {
-    margin-left: 0px;
-    width: 461px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 361px;
     height: 46px;
     border-radius: 15px;
     border: 1px solid #a7a7a7;
-    outline: none;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 18px;
@@ -769,12 +792,13 @@ img[alt="boy-footer"] {
 }
 
 .question-message {
-    margin-left: 740px;
-    width: 460px;
+    margin-left: 640px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 745px;
     height: 180px;
     border-radius: 15px;
     border: 1px solid #a7a7a7;
-    outline: none;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 18px;
@@ -783,8 +807,8 @@ img[alt="boy-footer"] {
 
 .question-btn {
     display: flex;
-    margin-left: 1235px;
-    margin-top: -50px;
+    margin-left: 1175px;
+    margin-top: -45px;
     width: 176px;
     height: 39px;
     border-radius: 15px;
@@ -803,12 +827,12 @@ img[alt="boy-footer"] {
 
 .conf {
     display: flex;
-    margin-left: 700px;
-    margin-top: 10px;
+    margin-left: 640px;
+    margin-top: 20px;
 }
 
 .conf-txt {
-    margin-left: 740px;
+    margin-left: 680px;
     margin-top: -25px;
     color: #1f2536;
     font-family: "Gotham Pro";
@@ -856,8 +880,6 @@ img[alt="envelope"] {
     margin: 236px 0 0 -200px;
 }
 
-
-
 .envelope-text {
     position: absolute;
     margin: 236px 0 0 -180px;
@@ -898,7 +920,6 @@ img[alt="old-phone"] {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 .footer-main-text {
@@ -917,6 +938,7 @@ img[alt="old-phone"] {
     font-family: "Gotham Pro";
     font-size: 16px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .footer-main-txt:hover {
@@ -950,6 +972,10 @@ img[alt="old-phone"] {
     font-family: "Gotham Pro";
     font-size: 24px;
     font-weight: 500;
+}
+
+a{
+    text-decoration: none
 }
 
 .footer-education-text:hover {
