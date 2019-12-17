@@ -44,7 +44,7 @@ header {
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 auto;
 }
 
 .header-menu {
@@ -94,8 +94,8 @@ header {
 }
 
 .main-block {
-    padding-top: 114px;
-    padding-bottom: 114px;
+    margin-top: 114px;
+    margin-bottom: 114px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -150,27 +150,32 @@ header {
 }
 
 .blen-lear{
-    margin-top: 26px;
+    margin-left: 110px;
     padding: 0;
 }
 
+.training{
+    margin-top: 106px;
+    margin-left: 110px;
+}
+
 .title {
-    margin-top: 198px;
+    margin: 0px;
     width: 900px;
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 0px;
+    line-height: 70px;
     text-transform: uppercase;
     letter-spacing: -0.36px;
 }
 
 .startup-text {
+    margin: 0px;
     display: flex;
-    margin-bottom: 0px;
     font-family: "Gotham Pro Bold";
     font-size: 48px;
-    line-height: 8px;
+    line-height: 10px;
     text-transform: uppercase;
     color: #24272d;
 }
@@ -182,8 +187,8 @@ header {
 
 .title-txt{
     margin: 0px;
-    padding-top: 20px;
-    padding-bottom: 52px;
+    margin-top: 20px;
+    margin-bottom: 52px;
     max-width: 1147px;
     color: #6a6a6a;
     font-size: 24px;
@@ -218,14 +223,12 @@ header {
 }
 
 .record-text {
-    margin-top: -39px;
     color: #6a6a6a;
     font-size: 24px;
     text-align: center;
 }
 
 .record-btn {
-    margin-top: 30px;
     width: 267px;
     min-width: 100px;
     height: 48px;
@@ -242,8 +245,13 @@ header {
     background-color: transparent; 
 }
 
+.master-class{
+    margin-top: 112px;
+    margin-left: 110px;
+    padding: 0 auto;
+}
+
 .city-txt{
-    padding-left: 10px;
     color: #d2ea2a;
     letter-spacing: -0.48px;
 }
@@ -402,6 +410,13 @@ header {
     background-color: transparent; 
 }
 
+.specialization {
+    margin-top: 180px;
+    margin-left: 110px;
+    padding: 0 auto;
+}
+
+
 .text{
     height: 103px;
     color: #6a6a6a;
@@ -410,7 +425,8 @@ header {
 }
 
 .project {
-    margin: 0 auto;
+    margin: 0px;
+    padding: 0px;
     flex-wrap: wrap;
     max-width: 1539px;
     min-height: 591px;
@@ -447,10 +463,12 @@ input {
 }
 
 .form{
+    margin-left: 80px;
+    width: 100%
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .form-form {
@@ -504,49 +522,53 @@ input {
     color: #d2ea2a;
 }
 
-img[alt="cloud-down"]{
-}
-
 .pracric {
-    margin: 0 auto;
+    margin-top: 121px;
     min-height: 916px;
     background-color: #23272c;
-    margin: 0 auto;
     width: 100%;
 }
 
+.practic-background{
+    width: 100%;
+    height: 130px;
+    background: url(..//img/cloud-down.png) no-repeat 50%;
+}
+
+.practics-projects{
+    margin-top: 84px;
+    margin-left: 80px;
+    padding: 0px;
+}
+
+.practic-main{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .title-white {
-    margin-top: 106px;
-    max-width: 1539px;
+    margin: 0px;
     color: #ffffff;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 0px;
+    line-height: 60px;
     text-transform: uppercase;
 }
 
 .title-text-white {
-    max-width: 1000px;
+    margin: 0px;
     color: #ffffff;
     font-family: "Gotham Pro";
-    font-size: 48px;
+    font-size: 48px
     font-weight: bold;
-    line-height: 0px;
     color: #d2ea2a;
+    line-height: 10px;
     text-transform: uppercase;
 }
 
-.title-txt-txt {
-    max-width: 1147px;
-    width: 1028px;
-    color: #6a6a6a;
-    font-family: "Gotham Pro";
-    font-size: 24px;
-    letter-spacing: -1px;
-}
-
 .all-project {
-    margin: -200px 0 0 1219px;
+    margin-right: 140px;
     color: #9b9b9b;
     font-family: "Gotham Pro";
     font-size: 24px;
@@ -554,13 +576,11 @@ img[alt="cloud-down"]{
 }
 
 .all-project-btn {
-    margin-left: 1219px;
+    line-height: 0px;
     color: #ffffff;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 30px;
     letter-spacing: -0.36px;
-    border: none;
     text-decoration: none;
 }
 
@@ -572,8 +592,18 @@ img[alt="cloud-down"]{
     color: transparent;
 }
 
+.title-txt-txt {
+    margin-left: 80px;
+    max-width: 1147px;
+    width: 1028px;
+    color: #6a6a6a;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
 .real-project{
-    margin: 200px 0 0 200px;
+    margin: 100px 0 0 200px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -623,14 +653,16 @@ img[alt="cloud-down"]{
     color: #d2ea2a;
 }
 
-img[alt="cloud-partners"]{
-    margin-top: -200px; 
-}
-
-.event {
-    margin: 0 auto;
+.cloud-partners{
     width: 100%;
-    height: 1140px;
+    height: 130px;
+    background: url(..//img/cloud.png) no-repeat 50%;
+    margin-top: 70px;
+}
+    
+.event {
+    margin-top: 111px;
+    margin-left: 100px;
 }
 
 .event-title-main{
@@ -691,56 +723,70 @@ img[alt="cloud-partners"]{
     font-weight: 500;
 }
 
+.call-main{
+    margin-left: 226px;
+    height: 610px;
+
+}
+
 img[alt="boy-footer"] {
-    margin-top: 133px;
     position: absolute;
+    margin-top: -50px;
+}
+
+.call-text{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 420px;
+    margin-top: 200px;
 }
 
 .title-question{
-    padding: 190px 0 0 400px;
+    margin: 0px;
     color: #24272d;
     font-family: "Gotham Pro";
     font-size: 36px;
     font-weight: bold;
-    line-height: 0px;
+    line-height: 60px;
     letter-spacing: -0.36px;
 }
 
 .title-text-question{
-    padding: 0px 0 0 400px;
+    margin-top: 0px;
+    margin-left: 420px;
     color: #24272d;
     font-family: "Gotham Pro";
     font-size: 48px;
     font-weight: bold;
-    line-height: 0px;
+    line-height: 6px;
     letter-spacing: -0.48px;
 }
 
 .title-txt-question{
-    padding: 0px 0 0 400px;
-    width: 1034px;
+    margin-left: 420px;
+    margin-top: 0px;
+    max-width: 634px;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .all-practic{
-    padding-left: 1250px;
-    margin-top: -165px;
+    margin-right: 205px;
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
 }
 
 .all-practic-btn{
-    margin-left: -23px;
-    width: 100%;
+    margin-top: -120px;
+    margin-right: 50px;
     display: flex;
     color: #d2ea2a;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 0px;
+    line-height: 6px;
     letter-spacing: -0.36px;
     border: none;
     background-color: transparent;
@@ -795,7 +841,7 @@ img[alt="boy-footer"] {
     margin-left: 640px;
     margin-top: 20px;
     padding: 10px;
-    width: 745px;
+    max-width: 745px;
     height: 180px;
     border-radius: 15px;
     border: 1px solid #a7a7a7;
@@ -842,19 +888,22 @@ img[alt="boy-footer"] {
 }
 
 .footer {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
     margin: 0 auto;
-    max-width: 1600px;
     height: 499px;
     background-color: #24272d;
 }
 
-img[alt="cloud-black"]{
-    margin-top: -90px;
+.footer-background{
+    width: 100%;
+    height: 90px;
+    background: url(..//img/cloud-black.png) no-repeat 50%;
+    margin-top: -70px;
 }
 
 img[alt="footer-logo"] {
