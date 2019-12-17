@@ -13,6 +13,9 @@
 <body>
     <header>
         <div class="container header">
+            <button class="icon-menu">
+                <img src="img/button.png" alt="drop-down-button" width="30" height="30">
+            </button>
             <a href="#"><img src="img/main-logo.png" alt="main-logo" width="242" height="67"></a>
             <ul class="header-menu">
                 <li class="menu-item">
@@ -119,16 +122,13 @@
         </div>
     <section class="main">
         <div class="main-backgraund">
-            <button class="icon-menu">
-                 <img src="img/button.png" alt="drop-down-button" width="30" height="30">
-            </button>
             <div class="main-backgraund-1">
                 <div class="container main-block">
                     <div class="block">
                         <h2 class="header-main-title">Startup</h2>
                         <h1 class="header-main-text">University</h1>
                         <p class="header-main-txt">Изучайте инновации с практиками</p>
-                        <button class="btn">Пройти обучение</button>
+                        <button class="btn btn-main">Пройти обучение</button>
                     </div>
                     <img src="img/boys.png" alt="boys" width="70%" height="70%">
                 </div>
@@ -137,7 +137,7 @@
     </section>
 <section class="training">
         <div class="wrapper">
-           <h3 class="title">Комбинированное обучение</h3>
+            <h3 class="title">Комбинированное обучение</h3>
             <h2 class="startup-text">В<span class="startup">startup</span>university</h2>
             <p class="title-txt">Разберись в инновациях с <span class="univer">JS corporation</span> и выберите свой путь.</p>
             <div class="main-record">
@@ -168,92 +168,134 @@
            <div class="wrapper">
             <h3 class="title">Запишись на мастер-класс</h3>
             <h2 class="startup-text">В своем <span class="city-txt">городе</span></h2>
-            <p class="title-startup-txt">Проходи обучение в <span class="univer">startup university</span> и вставай на проекты в качестве специалиста или воплощай свои идеи как новатор вместе с <span class="univer-txt">JS Corporation</span>!</p>
+            <p class="title-startup-txt">Проходи обучение в <span class="univer upper-text">startup university</span> и вставай на проекты в качестве специалиста или воплощай свои идеи как новатор вместе с <span class="univer-txt">JS Corporation</span>!</p>
             <div class="city">
-                <h1 class="drop-down-title">Выберите город</h1>
-                <select class="drop-down-city" onchange="...">
-                    <option value="1"> Москва</option>
-                    <option value="2"> Санкт-Петербург</option>
-                    <option value="3"> Курск</option>
-                    <option value="4"> Тула</option>
-                    <option value="5"> Самара</option>
-                </select>
+                <div class="city-select-wrapper">
+                    <div class="drop-down-title">Выберите город:</div>
+                    <select class="drop-down-city" onchange="...">
+                        <option value="1"> Москва</option>
+                        <option value="2"> Санкт-Петербург</option>
+                        <option value="3"> Курск</option>
+                        <option value="4"> Тула</option>
+                        <option value="5"> Самара</option>
+                    </select>
+                </div>
                 <div class="check-free">
-                <input type="checkbox" id="some_checkbox">
-                <span class="free">«Создай свой стартап» <span class="free-txt">(Бесплатно)</span></span>
+                    <input type="checkbox" id="some_checkbox">
+                    <div>
+                        <span class="checkbox-title">«Создай свой стартап» <span class="free-txt">(Бесплатно)</span></span>
+                        <div class="checkbox-subtitle">Серия мастер-классов, которая поможет определить какую позицию вы хотите занимать в IT-компании, разобрать, что такое стартапы, а также поможет понять как начать разработку собственного проекта.</div>
+                    </div>
                 </div>
-                <p class="drop-down-text">Серия мастер-классов, которая поможет определить какую позицию вы хотите занимать в IT-компании, разобрать, что такое стартапы, а также поможет понять как начать разработку собственного проекта.</p>
-                <div>
-                <p class="free-title">Итоговая стоимость обучения:</p>
-                <span class="free-title-txt">Бесплатно</span>
+                <div class="total">
+                    <div>
+                        <div class="free-title">Итоговая стоимость обучения:</div>
+                        <div class="free-title-txt">Бесплатно</div>
+                    </div>
+                    <div>
+                        <div class="phone-btn">
+                        <input id="phone" type="text" class="form-control" placeholder="+7 (___) __ __ ___ *">
+                        <button class="reg-btn">Зарегистрироваться</button>
+                    </div>
                 </div>
-                <div class="phone-btn">
-                <input id="phone" type="text" class="form-control" placeholder="+7 (___) __ __ ___ *">
-                <button class="reg-btn">Зарегистрироваться</button>
                 </div>
             </div>
             </div>  
             </section>
             <section class="specialization">
             <div class="wrapper">
-            <div>
-                <h3 class="title">Выбери свою</h3>
-            <h2 class="startup-text">Специальность</h2>
-            <p class="text">Нужен текст</p>
-            </div>
-            <div class="project">
-            <div class="project-main">
-              <input class="who" type="radio" name="check"><label class="who-text" for="check">Project Manager<p class="pro">Специалист управления проектами</p></label> 
-              <input class="who" type="radio" name="check"><label class="who-text" for="check">Frontend Developer<p class="pro">Специалист управления проектами</p></label>
-              <input class="who" type="radio" name="check"> <label class="who-text" for="check">Backend Developer<p class="pro">Специалист управления проектами</p></label>
-            </div>
-             <div class="project-main">
-              <input class="who" type="radio" name="check"><label class="who-text" for="check">Mobile Developer<p class="pro">Специалист управления проектами</p></label>
-              <input class="who" type="radio" name="check">
-              <label class="who-text" for="check">Design specialist<p class="pro">Специалист управления проектами</p></label>   
-              <input class="who" type="radio" name="check">
-              <label class="who-text" for="check">Marketing specialist<p class="pro">Специалист управления проектами</p></label>        
-           </div>
-            <div class="form">
-                <input class="form-form" type="text" placeholder="Ваше имя *">
-                <input class="form-form" type="text" placeholder="Email *">
-                <input class="form-form" type="text" placeholder="+7 (___) __ __ ___*">
-                <input class="form-form" type="text" placeholder="Ссылка на соц. сеть">
-                <button class="form-btn">Пройти обучение</button>
-            </div>
-                <input class="form-check" type="radio" name="check">
-                <p class="form-txt">Принимаю условия <span class= "form-conf"> политики конфиденциальности</span>*</p>
+                <div>
+                    <h3 class="title">Выбери свою</h3>
+                    <h2 class="startup-text">Специальность</h2>
+                    <p class="text">Нужен текст</p>
+                </div>
+                <div class="project">
+                    <div class="project-radio-list">
+                        <div class="project-raido">
+                            <input class="who" type="radio" name="check">
+                            <label class="who-text" for="check">Project Manager<p class="pro">Специалист управления проектами</p></label> 
+                        </div>
+                        <div class="project-raido">
+                            <input class="who" type="radio" name="check">
+                            <label class="who-text" for="check">Frontend Developer<p class="pro">Специалист управления проектами</p></label>
+                        </div>
+                        <div class="project-raido">
+                            <input class="who" type="radio" name="check">
+                            <label class="who-text" for="check">Backend Developer<p class="pro">Специалист управления проектами</p></label>
+                        </div>
+                        <div class="project-raido">
+                            <input class="who" type="radio" name="check">
+                            <label class="who-text" for="check">Mobile Developer<p class="pro">Специалист управления проектами</p></label>
+                        </div>
+                        <div class="project-raido">
+                            <input class="who" type="radio" name="check">
+                            <label class="who-text" for="check">Design specialist<p class="pro">Специалист управления проектами</p></label>  
+                        </div>
+                        <div class="project-raido">
+                            <input class="who" type="radio" name="check">
+                            <label class="who-text" for="check">Marketing specialist<p class="pro">Специалист управления проектами</p></label>       
+                        </div>
+                    </div>
+                    <div class="form">
+                        <input class="form-input" type="text" placeholder="Ваше имя *">
+                        <input class="form-input" type="text" placeholder="Email *">
+                        <input class="form-input" type="text" placeholder="+7 (___) __ __ ___*">
+                        <input class="form-input" type="text" placeholder="Ссылка на соц. сеть">
+                        <button class="form-btn">Пройти обучение</button>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="check">
+                        <span class="form-check-txt">Принимаю условия <span class= "form-conf"> политики конфиденциальности</span>*</span>
+                    </div>
+                    
                 </div>
                 <div class="cloud-down"></div>
             </div>
         </section>
         <section class="pracric">
-        <div class="practic-background">
-        </div>
+            <div class="practic-background">
+            </div>
            <div class="wrapper">
-           <div class="practics-projects">
-           <div class="practic-main">
-            <h3 class="title-white">Практика на</h3>
-            <h1 class="all-project">Посмотреть</h1>
-           </div>
-           <div class="practic-main">
-            <h2 class="title-text-white">Реальных проектах</h2>
-            <a href="#" class="all-project-btn">Все проекты &#8594;</a>
-            </div>
-            </div>
-            <p class="title-txt-txt">Во время обучения вы проходите практику на реальных проектах, в которые вы можете попасть после окончания вашего курса. Вы только что закончили обучение? Тогда мы можем вам подобрать один из наших проектов, в котором вы отточите свои знания и добавите его в портфолио. </p>
-            <div class="real-project">
-                <a href="" class="link-partners"><img class="logotipe" src="img/kron.png" alt="">Kron</a>
-                <a href="" class="link-partners"><img class="logotipe" src="img/hub.png" alt="">International Science Hub</a>
-                <a href="" class="link-partners"><img class="logotipe" src="img/bots.png" alt="">WeBots</a>
-                <a href="" class="link-partners"><img class="logotipe" src="img/wholine.png" alt="">Wholine.ru</a>
-                <a href="" class="link-partners"><img class="logotipe" src="img/clinic.png" alt="">Clinic</a>
-                <a href="" class="link-partners"><img class="logotipe" src="img/calm.png" alt="">MyCalm System</a>
-                <a href="" class="link-partners"><img class="logotipe" src="img/vertour.png" alt="">Vertour</a>
-                <a href="" class="link-partners"><img class="logotipe" src="img/wolo.png" alt="">Wolo</a>
-            </div>
-            </div>
-            <div class="cloud-partners">
+                <div class="pracric-title">
+                    <div>
+                        <h3 class="title-white">Практика на</h3>
+                        <h2 class="title-text-white">Реальных проектах</h2>
+                    </div>
+                    <div>
+                        <h1 class="all-project">Посмотреть</h1>
+                        <a href="#" class="all-project-btn">Все проекты &#8594;</a>
+                    </div>
+                </div>
+                <div class="practic-main">
+                    
+
+                    <p class="title-txt-txt">Во время обучения вы проходите практику на реальных проектах, в которые вы можете попасть после окончания вашего курса. Вы только что закончили обучение? Тогда мы можем вам подобрать один из наших проектов, в котором вы отточите свои знания и добавите его в портфолио. </p>
+                    <div class="real-project">
+                        <a href="" class="link-practic"><img class="logotipe" src="img/kron.png" alt="">
+                            <span class="link-practic-name">Kron</span>
+                        </a>
+                        <a href="" class="link-practic"><img class="logotipe" src="img/hub.png" alt="">
+                            <span class="link-practic-name">International Science Hub</span>
+                        </a>
+                        <a href="" class="link-practic"><img class="logotipe" src="img/bots.png" alt="">
+                            <span class="link-practic-name">WeBots</span>
+                        </a>
+                        <a href="" class="link-practic"><img class="logotipe" src="img/wholine.png" alt="">
+                            <span class="link-practic-name">Wholine.ru</span>
+                        </a>
+                        <a href="" class="link-practic"><img class="logotipe" src="img/clinic.png" alt="">
+                            <span class="link-practic-name">Clinic</span>
+                        </a>
+                        <a href="" class="link-practic"><img class="logotipe" src="img/calm.png" alt="">
+                            <span class="link-practic-name">MyCalm System</span>
+                        </a>
+                        <a href="" class="link-practic"><img class="logotipe" src="img/vertour.png" alt="">
+                            <span class="link-practic-name">Vertour</span>
+                        </a>
+                        <a href="" class="link-practic"><img class="logotipe" src="img/wolo.png" alt="">
+                            <span class="link-practic-name">Wolo</span>
+                        </a>
+                    </div>
             </div>
         </section>
         <section class="event">
@@ -264,20 +306,22 @@
                 <p class="event-title-txt">Которыми мы гордимся!</p>
             </div>
             <div class="event-main">
-                <img src="img/commonwealth.png" alt="event-img" width="91" height="90">
-                <a class="event-text" href="#"><h3 class="event-title">Славянское содружество 2019</h3>
-                </a>
-                <img src="img/kursk.png" alt="event-img" width="72" height="90">
-                <a class="event-text" href="#"><h3 class="event-title">Курская ТПП</h3>
-                </a>
-                <img src="img/skolkovo.png" alt="event-img" width="90" height="95">
-                <a class="event-text" href="#">
-                    <h3 class="event-title">Skolkovo</h3>
-                </a>
-                 <img src="img/point.png" alt="event-img" width="114" height="94">
-                <a class="event-text" href="#">
-                    <h3 class="event-title">Точка кипения ЮЗГУ</h3>
-                </a>
+                <div class="event-item">
+                    <img src="img/commonwealth.png" alt="event-img" width="91" height="90">
+                    <div class="event-title"><a class="event-text" href="#">Славянское содружество 2019</a></div> 
+                </div>
+                <div class="event-item">
+                    <img src="img/kursk.png" alt="event-img" width="72" height="90">
+                    <div class="event-title"><a class="event-text" href="#">Курская ТПП</a></div> 
+                </div>
+                <div class="event-item">
+                    <img src="img/skolkovo.png" alt="event-img" width="90" height="95">
+                    <div class="event-title"><a class="event-text" href="#">Skolkovo</a></div> 
+                </div>
+                <div class="event-item">
+                    <img src="img/point.png" alt="event-img" width="114" height="94">
+                    <div class="event-title"><a class="event-text" href="#">Точка кипения ЮЗГУ</a></div> 
+                </div>
             </div>
             </div>
             </section>

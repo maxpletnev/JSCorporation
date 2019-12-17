@@ -34,6 +34,7 @@ header {
     position: absolute;
     top: 23px;
     right: 0;
+    left: 0;
 }
 
 .header {
@@ -82,6 +83,7 @@ header {
 
 .main {
     margin: 0 auto;
+    padding-top: 100px;
     width: 100%;
     height: 916px;
     background: #24272d url(..//img/main-pic.png) no-repeat 50%;
@@ -90,50 +92,52 @@ header {
 
 .main-backgraund {
     height: 100%;
-    background: url(..//img/cloud.png) no-repeat 50% 800px;
+    background: url(..//img/cloud.png) no-repeat 50% 100%;
 }
 
 .main-block {
-    margin-top: 114px;
-    margin-bottom: 114px;
+    padding: 30px 0;
     height: 100%;
     display: flex;
     align-items: center;
-    flex-basis: 50%;
 }
 
 .block{
+    padding: 5% 0 20%;
     flex-basis: 50%;
 }
 
 .header-main-title {
-    margin-top: -309px;
     color: #d2ea2a;
     font-size: 36px;
+    line-height: 36px;
     font-family: "Gotham Pro Bold";
     text-transform: uppercase;
-    line-height: 20px;
+    margin: 0;
 }
 
 .header-main-text {
     color: #ffffff;
     font-size: 48px;
+    line-height: 48px;
     margin: 0;
     font-family: "Gotham Pro Bold";
     text-transform: uppercase;
-    line-height: 0px;
+    
 }
 
 .header-main-txt {
     margin: 0;
     color: #aeaeae;
     font-size: 24px;
-    line-height: 71px;
+}
+
+.btn-main {
+    margin-top: 40px;
 }
 
 .btn {
     min-width: 267px;
-    margin: 26px 0 0 0;
     padding: 13px 20px;
     border-radius: 15px;
     cursor: pointer;
@@ -155,27 +159,25 @@ header {
 }
 
 .training{
-    margin-top: 106px;
-    margin-left: 110px;
+    padding: 80px 0;
 }
 
 .title {
     margin: 0px;
-    width: 900px;
+    max-width: 900px;
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 70px;
+    line-height: 30px;
     text-transform: uppercase;
     letter-spacing: -0.36px;
 }
 
 .startup-text {
     margin: 0px;
-    display: flex;
     font-family: "Gotham Pro Bold";
     font-size: 48px;
-    line-height: 10px;
+    line-height: 42px;
     text-transform: uppercase;
     color: #24272d;
 }
@@ -246,9 +248,7 @@ header {
 }
 
 .master-class{
-    margin-top: 112px;
-    margin-left: 110px;
-    padding: 0 auto;
+    padding: 80px 0;
 }
 
 .city-txt{
@@ -257,52 +257,54 @@ header {
 }
 
 .title-startup-txt{
-    width: 1147px;
+    max-width: 1147px;
     color: #6a6a6a;
     font-size: 24px;
 }
 
 .univer {
     color: #d2ea2a;
-    text-transform: uppercase;
 }
 
 .univer-txt{
     color: #d2ea2a
 }
 
+.upper-text {
+    text-transform: uppercase;
+}
+
 .city {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1539px;
     min-height: 451px;
     border-radius: 25px;
     border: 1px solid #24272d;
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 24px;
+    padding: 46px 60px;
+}
+
+.city-select-wrapper{
+    display: flex;
+    align-items: center;
 }
 
 .drop-down-title {
-    margin: 46px 0 0 59px;
     width: 210px;
     color: #24272d;
     font-family: "Gotham Pro";
     font-size: 24px;
-    margin-left: 50px;
+    margin-right: 84px;
 }
 
 .drop-down-city {
     padding-left: 20px;
     display: block;
-    margin-top: 36px;
-    margin-left: 63px;
     border: 1px solid #d2ea2a;
     border-radius: 15px;
     outline: none;
     max-width: 267px;
     height: 48px;
-    font-size: 20px;
     color: #24272d;
     font-family: "Gotham Pro";
     font-size: 18px;
@@ -310,31 +312,28 @@ header {
 
 .check-free{
     display: flex;
-    position: absolute;
-    margin-top: 95px;
+    margin-top: 40px;
 }
 
 #some_checkbox{
-    margin-top: 0px;
-    margin-left: 40px;
+    margin-right: 12px;
 }
 
-.free{
-    display: flex;
+.checkbox-title{
     width: 460px;
     color: #24272d;
     font-family: "Gotham Pro";
     font-size: 24px;
+    line-height: 32px;
 }
 
 .free-txt{
     font-family: "Gotham Pro Bold";
-   font-weight: 700;
+    font-weight: 700;
 }
 
-.drop-down-text {
+.checkbox-subtitle {
     max-width: 1318px;
-    margin-left: 70px;
     color: #24272d;
     font-family: "Gotham Pro";
     font-size: 18px;
@@ -349,30 +348,26 @@ header {
     border: 1px solid #24272d;
 }
 
+.total {
+    margin-top: 60px;
+    padding-top: 45px;
+    border-top: 1px solid #24272d;
+    display: flex;
+    justify-content: space-between;
+}
+
 .free-title {
-    margin-top: -10px;
-    padding-left: 65px;
-    width: 830px;
-    height: 34px;
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 60px;
     letter-spacing: -0.36px;
 }
 
 .free-title-txt{
-    padding-left: 65px;
     color: #d2ea2a;
     font-family: "Gotham Pro Bold";
     font-size: 48px;
-    line-height: 0px;
     letter-spacing: -0.48px;
-}
-
-.phone-btn{
-    padding-left: 310px;
-    padding-bottom: 20px;
 }
 
 #phone {
@@ -411,9 +406,7 @@ header {
 }
 
 .specialization {
-    margin-top: 180px;
-    margin-left: 110px;
-    padding: 0 auto;
+   padding: 80px 0;
 }
 
 
@@ -426,12 +419,22 @@ header {
 
 .project {
     margin: 0px;
-    padding: 0px;
+    padding: 46px 60px;
     flex-wrap: wrap;
-    max-width: 1539px;
-    min-height: 591px;
     border-radius: 25px;
     border: 1px solid #24272d;
+}
+
+.project-radio-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-raido {
+    flex-basis: 30%;
+    display: flex;
 }
 
 .project-main {
@@ -463,17 +466,16 @@ input {
 }
 
 .form{
-    margin-left: 80px;
-    width: 100%
+    margin-top: 80px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.form-form {
+.form-input {
     padding-left: 15px;
-    margin-top: 70px;
     width: 267px;
     max-width: 267px;
     height: 48px;
@@ -486,7 +488,6 @@ input {
 }
 
 .form-btn {
-    margin-top: 70px;
     width: 267px;
     max-width: 267px;
     height: 48px;
@@ -504,18 +505,18 @@ input {
 }
 
 .form-check {
-    margin-left: 100px;
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.form-txt {
-    margin-left: 140px;
-    margin-top: -30px;
+.form-check-txt {
     color: #1f2536;
     font-family: "Gotham Pro";
     font-size: 18px;
     font-weight: bold;
     line-height: 16.71px;
+    margin-left: 12px;
 }
 
 .form-conf{
@@ -523,36 +524,38 @@ input {
 }
 
 .pracric {
-    margin-top: 121px;
+    padding: 160px 0;
     min-height: 916px;
     background-color: #23272c;
     width: 100%;
+    position: relative;
+}
+
+.pracric .wrapper {
+    position: relative;
+    z-index: 1;
 }
 
 .practic-background{
-    width: 100%;
-    height: 130px;
-    background: url(..//img/cloud-down.png) no-repeat 50%;
+    background: url(..//img/cloud-down.png) no-repeat 50% 0, url(..//img/cloud.png) no-repeat 50% 100%;
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: 0;
 }
 
-.practics-projects{
-    margin-top: 84px;
-    margin-left: 80px;
-    padding: 0px;
-}
-
-.practic-main{
-    margin-top: 0px;
+.pracric-title{
     display: flex;
     justify-content: space-between;
 }
+
 
 .title-white {
     margin: 0px;
     color: #ffffff;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 60px;
+    line-height: 30px;
     text-transform: uppercase;
 }
 
@@ -560,23 +563,23 @@ input {
     margin: 0px;
     color: #ffffff;
     font-family: "Gotham Pro";
-    font-size: 48px
+    font-size: 48px;
+    line-height: 42px;
     font-weight: bold;
     color: #d2ea2a;
-    line-height: 10px;
     text-transform: uppercase;
 }
 
 .all-project {
-    margin-right: 140px;
     color: #9b9b9b;
     font-family: "Gotham Pro";
     font-size: 24px;
     font-weight: bold;
+    margin: 0;
 }
 
 .all-project-btn {
-    line-height: 0px;
+    line-height: 32px;
     color: #ffffff;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
@@ -593,9 +596,9 @@ input {
 }
 
 .title-txt-txt {
-    margin-left: 80px;
+  
     max-width: 1147px;
-    width: 1028px;
+    
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
@@ -603,19 +606,18 @@ input {
 }
 
 .real-project{
-    margin: 100px 0 0 200px;
     display: flex;
-    text-align: center;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1400px;
 }
 
-.link-partners {
-    margin-right: 180px;
-    margin-top: 50px;
+.link-practic {
+    flex-basis: 21%;
+    flex-grow: 0;
+    margin: 20px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     width: 150px;
     align-items: center;
     text-decoration: none;
@@ -625,9 +627,14 @@ input {
     font-weight: 500;
 }
 
-.link-partners:hover {
+.link-practic:hover {
     color: #d2ea2a;
 }
+
+.link-practic-name {
+    margin-left: 40px;
+}
+
 
 .partners-title:hover {
     color: #d2ea2a;
@@ -661,30 +668,31 @@ input {
 }
     
 .event {
-    margin-top: 111px;
-    margin-left: 100px;
+    padding: 80px 0;
 }
 
 .event-title-main{
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 36px;
-    line-height: 0px;
+    line-height: 30px;
+    margin: 0;
 }
 
 .event-title-text{
     color: #24272d;
     font-family: "Gotham Pro Bold";
     font-size: 48px;
-    line-height: 0px;
+    line-height: 42px;
     letter-spacing: -0.48px;
+    margin: 0;
 }
 
 .event-title-txt{
     color: #6a6a6a;
     font-family: "Gotham Pro";
     font-size: 24px;
-    line-height: 0px;
+
 }
 
 .event-main {
@@ -694,12 +702,20 @@ input {
     justify-content: space-around;
 }
 
-.event-text {
-    margin-top: -20px;
+.event-item {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     align-items: center;
+    position: relative;
+}
+
+.event-item a::after {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+
+.event-text {
     max-width: 164px;
     text-decoration: none;
 }
@@ -713,10 +729,8 @@ input {
 }
 
 .event-title {
-    margin-left: -60px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    max-width: 180px;
+    margin-left: 32px;
     color: black;
     font-family: "Gotham Pro";
     font-size: 24px;
@@ -1103,7 +1117,8 @@ a{
     background-color: transparent;
     outline: none;
     border: 0; 
-
+    position: absolute;
+    left: 0;
 }
 
 .icon-menu::-moz-focus-inner {
@@ -1250,8 +1265,6 @@ img[alt="drop-down-old-phone"] {
     .menu {
         margin-top: -130px;
         margin-left: -350px;
-        text-align:
-
     }
 
     .left-click,
