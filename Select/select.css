@@ -1,0 +1,85 @@
+.c-select {
+  --select-primary: #d2ea2a;
+  --select-text: #24272d;
+  --select-options-bg: #fff;
+  position: relative;
+  display: inline-block;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  user-select: none;
+  color: var(--select-text);
+}
+
+.c-select_gray{
+  --select-text: #AEAEAE;
+  --select-primary: #A7A7A7;
+  --select-options-bg: #23272C;
+}
+
+.c-select__trigger {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 22px;
+   font-weight: 300;
+   line-height: 60px;
+   cursor: pointer;
+   outline: none;
+   max-width: 267px;
+   
+   font-family: "Gotham Pro";
+   font-size: 18px;
+   width: 267px;
+   height: 48px;
+   border-radius: 15px;
+   border: 1px solid var(--select-primary);
+}
+
+.c-select--open .c-select__trigger{
+  border-radius: 15px 15px 0 0;
+}
+
+.c-options {
+   position: absolute;
+   display: block;
+   top: 100%;
+   left: 0;
+   right: 0;
+   border-top: 0;
+   background: var(--select-options-bg);
+   transition: opacity 0.2s;
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+   z-index: 2;
+   border-width: 0 1px 1px 1px;
+   border-style: solid;
+   border-color: var(--select-primary);
+}
+
+.c-select--open .c-options {
+   opacity: 1;
+   visibility: visible;
+   pointer-events: all;
+}
+.c-options__item {
+   position: relative;
+   display: block;
+   padding: 0 22px 0 22px;
+   font-size: 22px;
+   font-weight: 300;
+   color: var(--select-text);
+   line-height: 60px;
+   cursor: pointer;
+   transition: opacity 0.2s;
+   background-color: var(--select-options-bg);
+}
+.c-options__item:hover {
+   cursor: pointer;
+   background-color: var(--select-primary);
+}
+.c-options__item--selected {
+   color: #ffffff;
+   background-color: var(--select-primary);
+}
