@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Gotham Pro";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  /* width: 267px;
+  height: 48px; */
+  min-width: 267px;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #d2ea2a;
+  color: #24272d;
+  font-weight: bold;
+}
+
+/* Header */
+
+header {
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-menu .menu-item:not(:first-child)  {
+  margin-left: 20px;
+}
+.header-menu .menu-item:last-child {
+  margin-left: 100px;
+}
+
+
+.menu-link {
+  margin-left: 12px;
+}
+
+
+/* Main */
+.main {
+  height: 916px;
+}
+
+.main-backgraund {
+  height: 100%;
+  background: #24272d url(./img/main-background.png) no-repeat 50%;
+  background-size: cover;
+}
+
+.main-block {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-main-title {
+  color: #d2ea2a;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.header-main-text {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-main-txt {
+  color: #aeaeae;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-btn {
+  font-size: 18px;
+
+}
